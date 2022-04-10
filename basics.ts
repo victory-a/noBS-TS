@@ -11,11 +11,11 @@ const myValues = [4, 5];
 const ids: Record<number, string> = {
   4: '4',
   5: '7',
-};
+}; 
 
 ids[30] = 'boo';
 
-if (ids[30] === '20') {
+if (ids[30] === '20') { 
 }
 
 for (let i = 0; i < 10; i++) {
